@@ -1,0 +1,20 @@
+{
+  "name": "js_classical_vs_london",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Arturo Mora-Rioja",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:classical": "node --experimental-vm-modules node_modules/jest/bin/jest.js test/bookingServiceClassical.test.js",
+    "test:london": "node --experimental-vm-modules node_modules/jest/bin/jest.js test/bookingServiceLondon.test.js"
+  },
+  "dependencies": {
+    "jest": "^30.5.1"
+  }
+}

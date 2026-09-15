@@ -12,7 +12,8 @@
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "test:classical": "node --experimental-vm-modules node_modules/jest/bin/jest.js test/bookingServiceClassical.test.js",
-    "test:london": "node --experimental-vm-modules node_modules/jest/bin/jest.js test/bookingServiceLondon.test.js"
+    "test:london": "node --experimental-vm-modules node_modules/jest/bin/jest.js test/bookingServiceLondon.test.js",
+    "test:cov": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
   },
   "dependencies": {
     "jest": "^30.5.1"
